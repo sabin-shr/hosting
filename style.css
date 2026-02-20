@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+/* Navigation */
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+.nav a {
+  color: #e5e7eb;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.logo {
+  font-weight: 600;
+}
+
+/* Sections */
+.section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 20px 60px;
+  text-align: center;
+}
+
+.hero {
+  background: linear-gradient(120deg, #0f172a, #1e293b);
+}
+
+.contact {
+  background: #020617;
+}
+
+.content {
+  max-width: 700px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+p {
+  opacity: 0.8;
+  line-height: 1.6;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: #38bdf8;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
